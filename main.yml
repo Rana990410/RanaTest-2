@@ -12,3 +12,13 @@ steps:
 - name:
 uses:
 with:
+python-version: 3.8
+-name: Install dependencies
+run: | 
+python -m pip install
+pip install unittest
+-name: Test with unittest
+run: | 
+python -m unit test discover -v
+pip install unittest
+
