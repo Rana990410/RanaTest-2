@@ -20,6 +20,6 @@ export default class BasePage {
    public async takePageVideo(path: string) {
     const video = this.page.video();
     if (video) {
-      await video.saveAs(path);
+      await video.saveAs(path); //slssll
     }
 }}
