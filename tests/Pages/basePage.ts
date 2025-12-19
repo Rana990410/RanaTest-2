@@ -15,7 +15,7 @@ export default class BasePage {
     await element.click();
   }
    public async takePageScreenshot(path: string) {
-    await this.page.screenshot({ path });
+    await this.page.screenshot({ path });// test edit
   }
    public async takePageVideo(path: string) {
     const video = this.page.video();
