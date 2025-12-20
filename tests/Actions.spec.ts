@@ -21,5 +21,5 @@ test('to have screenshots', async ({ page }) => {
 //  const button = page.locator('xpath=/html/body/div[2]/div[4]/form/div[1]/div[1]/div[3]/center/input[2]');
   //  await expect(button).toHaveAttribute('value', 'ضربة nحظ');
 
-  await expect(page).toHaveScreenshot(); //ddddd
+  await expect(page).toHaveScreenshot(); //to be run in yaml
 });
